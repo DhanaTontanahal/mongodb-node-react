@@ -16,3 +16,16 @@ So RestAPI stands as a backend wich supports all the CRUD operations on an expos
 
 CRUD (Create , Read , Update , Delete )
 
+REST FUL Constraints:
+
+1.)Client Server Architecture --> Clear separation of concerns w.r.t. Front and backend
+
+2.)Stateless(No client context is saved , any client can connect )
+
+3.)Cacheability (Responses defined themselves if they are cacheable or non-cacheable )
+
+4.)Layered System  (Client cconnects to server which doesnt necessairy is actual end point)
+
+5.)Uniform Interface (resources are identifid by requests , totally separated from db schema)
+
+6.)Code on demand(Optional)
